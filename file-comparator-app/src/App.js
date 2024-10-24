@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import FileComaprator from './components/FileComaprator';
 
 function App() {
   return (
     <div className="App">
-     <h1>File Comparator App</h1>
+     <FileComaprator/>
     </div>
   );
 }
