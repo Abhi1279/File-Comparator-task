@@ -2,15 +2,13 @@ import React, { useState } from "react";
 import Header from "./Header";
 
 const FileComaprator = () => {
-  const [loading, setLoading] = useState(false); // State to manage loading
+  const [loading, setLoading] = useState(false);
 
   const handleCompare = () => {
-    setLoading(true); // Set loading to true when the compare button is clicked
-    // Simulate loading for demonstration purposes
+    setLoading(true); 
     setTimeout(() => {
-      // Here, you would handle your file comparison logic
-      setLoading(false); // Set loading to false after processing
-    }, 2000); // Simulate a delay of 2 seconds (adjust as needed)
+      setLoading(false); 
+    }, 2000);
   };
 
   return (
